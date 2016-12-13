@@ -188,6 +188,8 @@
         body.classList.remove("impress-not-supported");
         body.classList.add("impress-supported");
     }
+         
+    console.log(pfx("perspective"),body.classList,body.dataset,ua.search(/(iphone)|(ipod)|(android)/));
     
     // GLOBALS AND DEFAULTS
     
